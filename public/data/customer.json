@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "id": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "firstName": "Kate",
+    "lastName": "Novak",
+    "id": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Alaska",
+    "id": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Monroe",
+    "id": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  }
+]
