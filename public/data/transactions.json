@@ -1,0 +1,56 @@
+[
+  {
+    "id": "976289af-2aed-4e78-a27d-711f3f98be4c",
+    "createdAt": 1674916779000,
+    "amount": 10000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "8b251e41-a672-4b7a-8068-8c799d750e47",
+    "createdAt": 1677163409000,
+    "amount": 5000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "120e5418-8ba3-4303-be4a-7eb9b2690118",
+    "createdAt": 1676731409000,
+    "amount": 5000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "d0307d72-b955-40e4-a27e-aabb57069384",
+    "createdAt": 1676040209000,
+    "amount": 10000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "ed43f722-ab59-43d0-b693-cdbc16fbb37d",
+    "createdAt": 1673361809000,
+    "amount": 10000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "c1f66855-5ab1-46d9-80f7-05a741d948ce",
+    "createdAt": 1673880209000,
+    "amount": 10000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "e47b5adf-c8d1-452a-a92e-92891823fcf6",
+    "createdAt": 1674657809000,
+    "amount": 5000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "9e15fa72-ae07-4344-b2c4-173daea7e0e3",
+    "createdAt": 1671547409000,
+    "amount": 5000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "9e15fa72-ae07-4344-b2c4-173daea7e0e3",
+    "createdAt": 1671979409000,
+    "amount": 5000,
+    "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  }
+]
