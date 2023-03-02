@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.summary {
+  padding: 2rem 0;
+
+  &__header {
+    color: $primary-color;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 -1rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

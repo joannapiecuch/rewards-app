@@ -1,2 +1,3 @@
 export * from './TranscationService';
-export * from './CustomerService';
+export * from './CustomersService';
+export * from './RewardsProgramService';

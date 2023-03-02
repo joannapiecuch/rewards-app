@@ -2,19 +2,19 @@
   {
     "id": "976289af-2aed-4e78-a27d-711f3f98be4c",
     "createdAt": 1674916779000,
-    "amount": 10000,
+    "amount": 120000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
     "id": "8b251e41-a672-4b7a-8068-8c799d750e47",
     "createdAt": 1677163409000,
-    "amount": 5000,
+    "amount": 56000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
     "id": "120e5418-8ba3-4303-be4a-7eb9b2690118",
     "createdAt": 1676731409000,
-    "amount": 5000,
+    "amount": 51000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
@@ -38,19 +38,85 @@
   {
     "id": "e47b5adf-c8d1-452a-a92e-92891823fcf6",
     "createdAt": 1674657809000,
-    "amount": 5000,
+    "amount": 51000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
     "id": "9e15fa72-ae07-4344-b2c4-173daea7e0e3",
     "createdAt": 1671547409000,
-    "amount": 5000,
+    "amount": 85000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
     "id": "9e15fa72-ae07-4344-b2c4-173daea7e0e3",
     "createdAt": 1671979409000,
-    "amount": 5000,
+    "amount": 95000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
+  },
+  {
+    "id": "86d43146-e37b-48b3-8d55-496421a69f45",
+    "createdAt": 1674225809000,
+    "amount": 10000,
+    "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
+  },
+  {
+    "id": "4676fb86-6f79-400d-8f25-e1ffea200a91",
+    "createdAt": 1675003409000,
+    "amount": 5000,
+    "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
+  },
+  {
+    "id": "f1fb2949-9ebc-44f9-b2c0-f4565e3426eb",
+    "createdAt": 1677509009000,
+    "amount": 10100,
+    "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
+  },
+  {
+    "id": "56a9ac22-5c7f-4635-9445-c20fab760dbe",
+    "createdAt": 1677681809000,
+    "amount": 54000,
+    "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
+  },
+  {
+    "id": "c3a0c31d-5bab-4f97-b0cd-1af25a2de71f",
+    "createdAt": 1677681809000,
+    "amount": 55000,
+    "customerId": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  },
+  {
+    "id": "900e5a3e-2e4b-4d79-ba28-a62e5e66601d",
+    "createdAt": 1673880209000,
+    "amount": 75000,
+    "customerId": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  },
+  {
+    "id": "cecfac32-9494-42ed-9770-7930c9ac7618",
+    "createdAt": 1675349009000,
+    "amount": 52000,
+    "customerId": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  },
+  {
+    "id": "5421cf7e-48fc-40ef-91d6-78d532074463",
+    "createdAt": 1677768209000,
+    "amount": 115000,
+    "customerId": "457ad86d-f982-481e-9b0b-6dc11dcdbc0c"
+  },
+  {
+    "id": "cae53512-755f-4e40-ab78-cac10df93129",
+    "createdAt": 1677681809000,
+    "amount": 120000,
+    "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
+  },
+  {
+    "id": "b36e715c-8e73-4d5f-99ce-38403b7ede8a",
+    "createdAt": 1675608209000,
+    "amount": 120000,
+    "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
+  },
+  {
+    "id": "b36e715c-8e73-4d5f-99ce-38403b7ede8a",
+    "createdAt": 1673621009000,
+    "amount": 1220000,
+    "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
   }
 ]
