@@ -1,0 +1,19 @@
+.record {
+  padding: 1rem;
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  flex-direction: column;
+  margin: 0 1rem;
+  flex: 1;
+
+  h4,
+  p {
+    margin: 0.5rem 0;
+  }
+
+  &__summary {
+    margin-top: auto;
+    font-weight: bold;
+  }
+}

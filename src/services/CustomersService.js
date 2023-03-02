@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const getCustomer = async () => {
+export const getCustomers = async () => {
   const response = await axios.get('/data/customer.json');
 
   return {

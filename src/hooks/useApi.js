@@ -1,24 +1,22 @@
 import { useCallback, useEffect, useState } from 'react';
-import { API_REQUEST_STATUS } from '../const/status';
 
 export const useApi = (callApiFunc) => {
   const [data, setData] = useState();
   const [error, setError] = useState();
-  const [status, setStatus] = useState('');
+  const [isLoading, setLoading] = useState(true);
 
   const execute = useCallback(async () => {
-    setStatus(API_REQUEST_STATUS.LOADING);
+    setLoading(true);
     setData(null);
     setError(null);
 
     try {
       const result = await callApiFunc();
       setData(result.data);
-      console.log(result);
-      setStatus(API_REQUEST_STATUS.SUCCESS);
     } catch (e) {
       setError(e);
-      setStatus(API_REQUEST_STATUS.ERROR);
+    } finally {
+      setLoading(false);
     }
   }, [callApiFunc]);
 
@@ -26,5 +24,5 @@ export const useApi = (callApiFunc) => {
     execute();
   }, [execute]);
 
-  return { status, data, error };
+  return { isLoading, data, error };
 };
