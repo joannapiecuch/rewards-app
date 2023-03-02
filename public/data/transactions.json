@@ -2,7 +2,7 @@
   {
     "id": "976289af-2aed-4e78-a27d-711f3f98be4c",
     "createdAt": 1674916779000,
-    "amount": 120000,
+    "amount": 12000,
     "customerId": "d5849f35-ce8c-4aec-967b-d1e793c71eb0"
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": "4676fb86-6f79-400d-8f25-e1ffea200a91",
     "createdAt": 1675003409000,
-    "amount": 5000,
+    "amount": 5020,
     "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
   },
   {
@@ -74,7 +74,7 @@
   {
     "id": "56a9ac22-5c7f-4635-9445-c20fab760dbe",
     "createdAt": 1677681809000,
-    "amount": 54000,
+    "amount": 5400,
     "customerId": "c182b234-1a2e-4a50-b58b-4cc30ede81aa"
   },
   {
@@ -104,19 +104,19 @@
   {
     "id": "cae53512-755f-4e40-ab78-cac10df93129",
     "createdAt": 1677681809000,
-    "amount": 120000,
+    "amount": 12000,
     "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
   },
   {
     "id": "b36e715c-8e73-4d5f-99ce-38403b7ede8a",
     "createdAt": 1675608209000,
-    "amount": 120000,
+    "amount": 9000,
     "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
   },
   {
-    "id": "b36e715c-8e73-4d5f-99ce-38403b7ede8a",
+    "id": "1a914464-5540-493f-88be-a1a285f799cb",
     "createdAt": 1673621009000,
-    "amount": 1220000,
+    "amount": 13200,
     "customerId": "85eabfcc-4da3-4360-9a40-fcf1a7645cbe"
   }
 ]

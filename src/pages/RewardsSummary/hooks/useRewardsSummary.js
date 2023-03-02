@@ -32,11 +32,6 @@ export const useRewardsSummary = () => {
     []
   );
 
-  const mappedTransactions = useMemo(
-    () => transactions?.data?.map(mapTransaction).reduce(summariseReduce, {}),
-    [transactions]
-  );
-
   const data = useMemo(() => {
     return customers?.data?.map((customer) => ({
       ...customer,
@@ -45,7 +40,7 @@ export const useRewardsSummary = () => {
         .map(mapTransaction)
         .reduce(summariseReduce, {})
     }));
-  }, [mappedTransactions, customers]);
+  }, [transactions, customers]);
 
   const isLoading = transactions.isLoading || customers.isLoading;
   const error = transactions.error || customers.error;

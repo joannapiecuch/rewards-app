@@ -1,9 +1,15 @@
-import { REWARDS_VALUE, MIN_VALUE_TRESCHOLD_ONE_POINT, MIN_VALUE_TRESCHOLD_TWO_POINT } from '../consts/rewards';
+import { REWARDS } from '../consts/rewards';
 
 export const getRewardPoints = (amount) => {
-  const amountIn$ = amount / 100;
-  const onePoints = Math.max(0, Math.min(MIN_VALUE_TRESCHOLD_ONE_POINT, amountIn$ - MIN_VALUE_TRESCHOLD_ONE_POINT));
-  const twoPoints = Math.max(0, Math.min(MIN_VALUE_TRESCHOLD_TWO_POINT, amountIn$ - MIN_VALUE_TRESCHOLD_TWO_POINT));
+  const amountInDollars = Math.floor(amount / 100);
+  let rewardAmount = 0;
 
-  return onePoints + twoPoints * REWARDS_VALUE.TWO_POINT;
+  for (const reward of REWARDS) {
+    const difference = amountInDollars - reward.min;
+    const calculatedPoints = reward.max ? Math.min(reward.min, difference) : difference;
+
+    rewardAmount += Math.max(0, calculatedPoints) * reward.multiplier;
+  }
+
+  return rewardAmount;
 };

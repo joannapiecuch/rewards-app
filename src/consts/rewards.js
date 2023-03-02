@@ -1,7 +1,4 @@
-export const REWARDS_VALUE = {
-  ONE_POINT: 1,
-  TWO_POINT: 2
-};
-
-export const MIN_VALUE_TRESCHOLD_ONE_POINT = 50;
-export const MIN_VALUE_TRESCHOLD_TWO_POINT = 100;
+export const REWARDS = [
+  { min: 50, max: 100, multiplier: 1 },
+  { min: 100, multiplier: 2 }
+];
